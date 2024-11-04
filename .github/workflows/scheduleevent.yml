@@ -1,0 +1,12 @@
+name: Schedule a Workflow
+
+on:
+  schedule:
+    - cron: '*/2 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run a script
+        run: echo "This is a scheduled event"
