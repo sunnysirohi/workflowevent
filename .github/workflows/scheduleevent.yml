@@ -3,6 +3,9 @@ name: Schedule a Workflow
 on:
   schedule:
     - cron: "*/1 * * * *"
+  push:
+    branches:
+      - main
 
 jobs:
   build:
