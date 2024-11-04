@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run a script
-        run: echo "This is a scheduled event"
+        run: echo "This is new scheduled event"
